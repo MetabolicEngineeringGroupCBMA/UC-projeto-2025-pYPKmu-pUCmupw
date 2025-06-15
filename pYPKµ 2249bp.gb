@@ -1,0 +1,152 @@
+LOCUS       pYPK__2249bp            2249 bp    DNA     circular     04-JUN-2025
+DEFINITION  LMBP 9329.
+ACCESSION   .
+VERSION     .
+KEYWORDS    ATCC.
+SOURCE      
+  ORGANISM   .
+COMMENT     pUCmu from 134 to 1669
+COMMENT     Annotated with pLannotate v1.2.2. Accession number: LMBP 9329 (c)
+            BCCM/GeneCorner Plasmid Collection (Ghent University, Belgium) Last
+            modified: 7-SEP-2020 NGS data implemented 
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             730..1589
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.7"
+                     /match_length="99.9"
+                     /fragment="True"
+                     /other="CDS"
+                     /locus_tag="AmpR (fragment)"
+                     /label="AmpR (fragment)"
+                     /ApEinfo_label="AmpR (fragment)"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     promoter        666..729
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="promoter"
+                     /locus_tag="AmpR promoter"
+                     /label="AmpR promoter"
+                     /ApEinfo_label="AmpR promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     rep_origin      1613..2201
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /locus_tag="ori"
+                     /label="ori"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     ncRNA           complement(1654..1758)
+                     /note="pLannotate"
+                     /database="Rfam"
+                     /identity="100.0"
+                     /match_length="102.9"
+                     /fragment="False"
+                     /other="ncRNA"
+                     /locus_tag="RNAI"
+                     /label="RNAI"
+                     /ApEinfo_label="RNAI"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     primer_bind     1..29
+                     /locus_tag="577"
+                     /label="577"
+                     /ApEinfo_label="577"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     protein_bind    166..171
+                     /bound_moiety=""
+                     /locus_tag="ZraI"
+                     /label="ZraI"
+                     /ApEinfo_label="ZraI"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     protein_bind    216..221
+                     /bound_moiety=""
+                     /locus_tag="AjiI"
+                     /label="AjiI"
+                     /ApEinfo_label="AjiI"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     protein_bind    247..252
+                     /bound_moiety=""
+                     /locus_tag="EcoRV"
+                     /label="EcoRV"
+                     /ApEinfo_label="EcoRV"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+     primer_bind     complement(516..544)
+                     /locus_tag="578"
+                     /label="578"
+                     /ApEinfo_label="578"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
+ORIGIN
+        1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
+       61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
+      121 tggttgtttt gccagattca gcagagtctg tgcaatgcgg ccgctGACGT Cgaggaacgc
+      181 caggttgccc actttctcac tagtgacctg cagccGACGT Gccatctgtg cagacaaacg
+      241 catcagGATA TCcggattta cctgaatcaa ttggcgaaat tttttgtacg aaatttcagc
+      301 cacttcacag gcggttttcg cacgtaccca tgcgctacgt tcctggccct cttcaaacag
+      361 gcccagttcg ccaataaaat caccctgatt cagataggag aggatcattt ctttaccctc
+      421 ttcgtctttg atcagcactg ccacagagcc tttaacgatg tagtacagcg tttccgcttt
+      481 ttcaccctgg tgaataagcg tgctcttgga tgggtactta tgaatgtggc aatgagacaa
+      541 gaaccattcg agagtaggat ccgtttgagg tttaccaagt accataagat ccttaaattt
+      601 ttattatcta gctagatgat aatATTATAt caagaattgt acctgaAAGC AAataaattt
+      661 tttattatgt atccgctcat gagacaataa ccctgataaa tgcttcaata atattgaaaa
+      721 aggaagagta tgagtattca acatttccgt gtcgccctta ttcccttttt tgcggcattt
+      781 tgccttcctg tttttgctca cccagaaacg ctggtgaaag taaaagatgc tgaagatcag
+      841 ttgggtgcac gagtgggtta catcgaactg gatctcaaca gcggtaagat ccttgagagt
+      901 tttcgccccg aagaacgttt tccaatgatg agcactttta aagttctgct atgtggcgcg
+      961 gtattatccc gtattgacgc cgggcaagag caactcggtc gccgcataca ctattctcag
+     1021 aatgacttgg ttgagtactc accagtcaca gaaaagcatc ttacggatgg catgacagta
+     1081 ggagaattat gcagtgctgc cataaccatg agtgataaca ctgcggccaa cttacttctg
+     1141 acaacgatcg gaggaccgaa ggagctaacc gcttttttgc acaacatggg ggatcatgta
+     1201 actcgccttg atcgttggga accggagctg aatgaagcca taccaaacga cgagcgtgac
+     1261 accacgatgc ctgtagcaat ggcaacaacg ttgcgcaaac tattaactgg cgaactactt
+     1321 actctagctt cccggcaaca attaatagac tggatggagg cggataaagt tgcaggacca
+     1381 cttctgcgct cggcccttcc ggctggctgg tttattgctg ataaatctgg agccggtgag
+     1441 cgtgggtctc gcggtatcat tgcagcactg gggccagatg gtaagccctc ccgtatcgta
+     1501 gttatctaca cgacggggag tcaggcaact atggatgaac gaaatagaca gatcgctgag
+     1561 ataggtgcct cactgattaa gcattggtag tagaaaagat caaaggatct tcttgagatc
+     1621 ctttttttct gcgcgtaatc tgctgcttgc aaacaaaaaa accaccgcta ccagcggtgg
+     1681 tttgtttgcc ggatcaagag ctaccaactc tttttccgaa ggtaactggc ttcagcagag
+     1741 cgcagatacc aaatactgtt cttctagtgt agccgtagtt aggccaccac ttcaagaact
+     1801 ctgtagcacc gcctacatac ctcgctctgc taatcctgtt accagtggct gctgccagtg
+     1861 gcgataagtc gtgtcttacc gggttggact caagacgata gttaccggat aaggcgcagc
+     1921 ggtcgggctg aacggggggt tcgtgcacac agcccagctt ggagcgaacg acctacaccg
+     1981 aactgagata cctacagcgt gagctatgag aaagcgccac gcttcccgaa gggagaaagg
+     2041 cggacaggta tccggtaagc ggcagggtcg gaacaggaga gcgcacgagg gagcttccag
+     2101 ggggaaacgc ctggtatctt tatagtcctg tcgggtttcg ccacctctga cttgagcgtc
+     2161 gatttttgtg atgctcgtca ggggggcgga gcctatggaa attaacgagt gccgtaaacg
+     2221 acgatggttt taccgtgtgc ggagatcag   
+//
